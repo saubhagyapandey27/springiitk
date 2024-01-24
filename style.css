@@ -1,0 +1,132 @@
+@font-face {
+    font-family: gilroy;
+    src: url(Font/Gilroy-ExtraBold.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+    color: #fff;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+
+/* for changing the default color when text is selected */
+*::selection{
+    background-color: #C5C5C5;
+    color: #1E1E1E;
+}
+
+/* for changing the style of scrollbar  */
+body::-webkit-scrollbar{
+    display: block;
+    width: 8px;
+    background-color: #000;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #C5C5C5;
+    border-radius: 50px;
+}
+
+#page{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+#mainbox{
+    width: 60%;
+    height: 60%;
+    background-color: #1E1E1E;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px #757070;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#results{
+    height: 5vh;
+    width: 17vh;
+    background-color: #1E1E1E;
+    margin-top: 63vh;
+    border-radius: 5px;
+    padding: 9px;
+}
+#results h4{
+    font-size: 2.2vh;
+}
+.circle{
+    height: 8.5vh;
+    width: 8.5vh;
+    background-color: #F5F5F5;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#c1{
+    right: 4vh;
+    top: 4vh;
+}
+#c2{
+    right: 4vh;
+    top: 16vh;
+}
+
+.row{
+    width: 95%;
+    height: 14%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#mainbox select {
+    width: 22%;
+    height:100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: #3B3B3B;
+    border-radius: 7px;
+  }
+
+  .editable-box {
+    border: 1px solid #F5F5F5;
+    padding: 15px;
+    cursor: pointer;
+    width: 22%;
+    height: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 7px;
+  }
+  .editable-box h5{
+    font-size: 2.6vh;
+  }
+
+  .text-input {
+    display: none;
+    box-sizing: border-box;
+    margin-top: 10px;
+    width: 22%;
+    height: 100%;
+    background-color: #3B3B3B;
+    border-radius: 7px;
+  }
+
+#box2{
+    width: 90%;
+}
+#text-input-box2{
+    width: 90%;
+}
