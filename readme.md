@@ -15,7 +15,8 @@ This project is a modified clone of a website page created for the Programming C
 
 ## How to View
 
-To view the website, open the `index.html` file in a web browser. You can also deploy the project to a live server for testing.
+1. To view the website, open the `index.html` file in a web browser. You can also deploy the project to a live server for testing.
+2. Go to the Github Page: https://saubhagyapandey27.github.io/springiitk/
 
 ## Project Structure
 
